@@ -1,0 +1,47 @@
+*.log
+.DS_store
+.env
+
+# IntelliJ project files
+.idea
+.idea/
+*.iml
+out
+gen
+
+# Next
+.next
+
+build
+error_log
+node_modules/
+sandbox.*
+*.sandbox.*
+sslcert
+vendor
+*.map
+
+config/private/*
+coverage
+/public/client*
+/private
+
+# Tests
+test-report
+jesthtmlreporter.config.js
+
+
+# VS Code
+.vscode
+
+# EXPO
+.expo
+.expo-shared
+.tmp
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+# Avoid commiting local dev settings
+app.json
