@@ -7,12 +7,16 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles.text}>App Screen</Text>
         <Button
             onPress={() => navigation.navigate('Components')}
-            title="Go to Components Dmo"
+            title="Go to Components Demo"
         />
         <Button
           onPress={() => navigation.navigate('List')}
           title="Go to List Demo"
         />
+          <Button
+              onPress={() => navigation.navigate('Image')}
+              title="Go to Image Demo"
+          />
       </View>
   )
 }
